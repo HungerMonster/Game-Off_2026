@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+Assets/Licences\ Assets/
+*.log
+.import/
+*.import
+export_presets.cfg
