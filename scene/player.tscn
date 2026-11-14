@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://073yjyy3dyld"]
 
 [ext_resource type="Script" uid="uid://1hf6frg8bgvd" path="res://script/player.gd" id="1_hjaqi"]
-[ext_resource type="Texture2D" uid="uid://tc6q2dgwf8f8" path="res://Assets/GameOff 2026 SpriteSheet.png" id="1_xo3ru"]
+[ext_resource type="Texture2D" uid="uid://cexdq8rjre2cq" path="res://Assets/GameOff 2026 SpriteSheet.png" id="1_xo3ru"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hjaqi"]
 atlas = ExtResource("1_xo3ru")
