@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://de58tecx7o1n7"]
+
+[ext_resource type="PackedScene" uid="uid://b7kji8oquhult" path="res://level/level_1.tscn" id="1_p0edm"]
+[ext_resource type="PackedScene" uid="uid://073yjyy3dyld" path="res://scene/player.tscn" id="2_l8ntv"]
+
+[node name="Node2D" type="Node2D" unique_id=1780820856]
+
+[node name="level_1" parent="." unique_id=430789351 instance=ExtResource("1_p0edm")]
+
+[node name="CharacterBody2D" parent="." unique_id=1090462853 instance=ExtResource("2_l8ntv")]
+position = Vector2(-115, 116)

@@ -11,12 +11,11 @@ func _physics_process(delta):
 	if gravity_cooldown_timer > 0:
 		gravity_cooldown_timer -= delta
 	
-		if not is_on_floor():
-			velocity += current_gravity_direction * gravity_strength
-			is_landing = false
+	if not is_on_floor():
+		velocity += current_gravity_direction * gravity_strength
+		is_landing = false
 		
-		if anim_player.animation != "fall":
-			anim_player.play("fall")
+		
 		
 	else:
 		if velocity.dot(current_gravity_direction) > 0:
@@ -25,7 +24,9 @@ func _physics_process(delta):
 		
 		if anim_player.animation != "idle":
 			anim_player.play("idle")
-
+			
+	if anim_player.animation != "fall":
+			anim_player.play("fall")
 	move_and_slide()
 
 func _input(event):

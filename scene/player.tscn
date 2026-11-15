@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://073yjyy3dyld"]
 
 [ext_resource type="Script" uid="uid://1hf6frg8bgvd" path="res://script/player.gd" id="1_hjaqi"]
-[ext_resource type="Texture2D" uid="uid://cexdq8rjre2cq" path="res://Assets/GameOff 2026 SpriteSheet.png" id="1_xo3ru"]
+[ext_resource type="Texture2D" uid="uid://cexdq8rjre2cq" path="res://assets/GameOff 2026 SpriteSheet.png" id="1_xo3ru"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hjaqi"]
 atlas = ExtResource("1_xo3ru")
@@ -70,3 +70,10 @@ animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=767172421]
 shape = SubResource("RectangleShape2D_g2vtq")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1197937954]
+zoom = Vector2(2, 2)
+limit_left = -144
+limit_top = -144
+limit_right = 144
+limit_bottom = 144
